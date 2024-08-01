@@ -1,0 +1,174 @@
+﻿/* css for the colouring, padding, marginging and placing of sections
+   for lakescape lodge web.
+    Author: Basil Paija Pun
+    Date: 31/7/24
+    File name: lake_style.css */
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #7ba8c0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: serif;
+}
+
+nav {
+  background-color: #183642;
+}
+
+#leftcol {
+  background-color: #ddd8c4;
+}
+#rightcol {
+  background-color: #6d4c3d;
+}
+
+#rightcol ul {
+  list-style: none;
+}
+
+#rightcol h2,
+#rightcol li {
+  padding-left: 30px;
+}
+
+#rightcol li:first-child {
+  font-weight: bold;
+}
+/*lvha*/
+#rightcol a:link,
+nav a:link {
+  color: #fffdf2;
+  text-decoration: none;
+}
+#rightcol a:visited,
+nav a:visited {
+  color: #fffdf2;
+  text-decoration: none;
+}
+
+/* #rightcol a:hover,
+nav a:hover{
+
+}
+
+#rightcol a:active,
+nav a:active{
+
+} */
+
+nav li {
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#rightcol h2 {
+  color: #ddd8c4;
+  font-size: 35px;
+  display: inline-block;
+  margin-bottom: -5px;
+}
+
+#rightcol blockquote {
+  color: #fffdf2;
+  line-height: 1.5;
+  margin-top: 30px;
+}
+
+section {
+  height: 1000px;
+}
+
+footer {
+  background-color: #183642;
+  padding: 15px;
+  color: #fffdf2;
+  text-align: center;
+  font-size: larger;
+}
+
+#leftcol {
+  padding-left: 30px;
+}
+
+#notes {
+  background-color: #00a676;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-right: 10px;
+}
+
+#notes a:link {
+  color: #fffdf2;
+}
+
+#notes a:visited {
+  color: #fffdf2;
+}
+
+/* #notes a:hover{
+
+}
+
+#notes a:active{
+
+} */
+
+#notes h2 {
+  padding-left: 15px;
+}
+
+#notes ul {
+  list-style: square;
+  margin-top: -10px;
+  margin-left: -5px;
+}
+
+#events {
+  background-color: #7d8cc4;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+#events p {
+  padding-left: 5px;
+}
+
+#leftcol h1 {
+  font-size: xx-large;
+  font-style: italic;
+}
+
+p {
+  font-size: 15.5px;
+}
+
+#leftcol p {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#notes li,
+#events p {
+  font-size: 14px;
+}
+
+#events h3 {
+  font-family: Arial;
+  font-weight: normal;
+}
+
+#events:last-child {
+  padding-bottom: 15px;
+}
+
+#notes li:last-child {
+  padding-bottom: 15px;
+}
